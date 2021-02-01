@@ -1,0 +1,6 @@
+framework module Pods_libcaculator_Example {
+  umbrella header "Pods-libcaculator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

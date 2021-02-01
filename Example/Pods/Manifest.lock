@@ -1,0 +1,16 @@
+PODS:
+  - libcaculator (0.1.0)
+
+DEPENDENCIES:
+  - libcaculator (from `../`)
+
+EXTERNAL SOURCES:
+  libcaculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libcaculator: e214366024a8cf80a3aa126b5cf9c0ce04ab00f0
+
+PODFILE CHECKSUM: 210843daabf2f7cb56c392a666adca2333bb239a
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module libcaculator {
+  umbrella header "libcaculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

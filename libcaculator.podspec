@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libcaculator'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of libcaculator.'
+  s.version          = '1.0.0'
+  s.summary          = 'library caculation by nghia'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'library caculation by nghia'
                        DESC
 
   s.homepage         = 'https://github.com/pvnghia123/libcaculator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pvnghia123' => '34206875+pvnghia123@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/pvnghia123/libcaculator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pvnghia123/caculat1/releases/download/1.0.0/libCalculator-ver1.00.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'libcaculator/Classes/**/*'
+  s.source_files = 'calculib.framework/Versions/A/Headers/*.{h,m,c,mm}'
   
   # s.resource_bundles = {
   #   'libcaculator' => ['libcaculator/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'calculib.framework/Versions/A/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
